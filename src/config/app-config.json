@@ -1,0 +1,13 @@
+{
+    "region": "YOUR_REGION",
+    "userPool": "YOUR_USER_POOL_ID",
+    "userPoolBaseUri": "YOUR_USER_POOL_URI",
+    "clientId": "YOUR_COGNITO_APP_CLIENT_ID",
+    "callbackUri": "YOUR_SIGNIN_CALLBACK_URI",
+    "signoutUri": "YOUR_SIGNOUT_CALLBACK_URI",
+    "tokenScopes": [
+        "openid",
+        "email"
+    ],
+    "apiBaseUri": "API_GATEWAY_BASE_URI"
+}
